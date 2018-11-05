@@ -154,7 +154,8 @@ _DEPENDENCIES_NUMERICS = [
     ('sklearn', 'scikit-learn'),
     'statsmodels',
     ('igraph', 'python-igraph'),
-    'louvain']
+    'louvain',
+    'leiden']
 
 
 _DEPENDENCIES_PLOTTING = ['matplotlib', 'seaborn']

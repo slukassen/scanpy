@@ -110,7 +110,7 @@ def graph_clustering(
                 partition_kwargs["resolution_parameter"] = resolution
             if use_weights:
                 partition_kwargs["weights"] = weights
-            logg.info('    using the "leiden" package of Traag (2018) with Lukassen alterations')
+            logg.info('    using the "leiden" package of Traag (2018)')
             #leidenalg.set_rng_seed(random_state)
             #part = leidenalg.find_partition(g, partition_type, **partition_kwargs)
             part = leidenalg.find_partition(g, leidenalg.ModularityVertexPartition, **partition_kwargs)
